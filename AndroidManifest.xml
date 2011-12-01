@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.freelancersunion.gigs"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".FreelancersUnionGigs"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="GigsActivity" android:label="@string/label_gigs"></activity>
+        <activity android:name="EventsActivity" android:label="@string/label_events"></activity>
+        <activity android:name="EventWebView" android:label="@string/label_event_webview"></activity>
+
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

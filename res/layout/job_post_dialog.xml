@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+    <Button android:id="@+id/apply_button"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/apply_button"  />
+    
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/job_post_dialog_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+    	android:textStyle="bold" 			/>
+    
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/job_post_dialog_company"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+    	android:gravity="center"  />
+    
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/job_post_dialog_location"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"  />
+    
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/job_post_dialog_description"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+        android:scrollbars="vertical"/>
+</LinearLayout>
+

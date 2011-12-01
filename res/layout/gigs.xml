@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<!--     Search box and button -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+		<EditText
+			android:id="@+id/SearchBox"
+    		android:layout_width="wrap_content"
+    		android:layout_height="fill_parent"
+    		android:hint="@string/hint_text"   	/>
+    	<Button android:id="@+id/clear_search_button"
+    		android:layout_width="wrap_content"
+    		android:layout_height="fill_parent"
+    		android:text="@string/clear_search"  />
+    </LinearLayout>
+<!--	 End Search box and button -->
+<!--	 Bottom Inner layout -->
+	<ListView	android:id="@android:id/list"
+				android:layout_width="fill_parent"
+        		android:layout_height="fill_parent" />
+<!--	 End Bottom inner layout -->
+</LinearLayout>

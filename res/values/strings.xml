@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Freelancers Union Gigs</string>
+    <string name="apply_button">Apply Now</string>
+    <string name="hint_text">Find the right job for you...</string>
+    <string name="clear_search">Clear</string>
+    <string name="label_gigs">Gigs</string>
+    <string name="label_events">Events</string>
+    <string name="label_event_webview">Event Description</string>
+</resources>
